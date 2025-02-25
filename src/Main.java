@@ -1,7 +1,7 @@
 // Presshgh Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 //t
 //fdffdf
-//
+//hello
 //
 // thfthhthhitespace characters in your code.
 public class Main {
