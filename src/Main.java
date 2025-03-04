@@ -10,10 +10,21 @@ public class Main {
         Point p2 = new Point(7,8);
 
 
-        System.out.println(p1.toSvg());
-        System.out.println();
-        System.out.println(p2.toSvg());
+        Segment s = new Segment(p1,p2);
+        System.out.println(s);
+
+
+        p1.setX(12);
+        p1.setY(15);
+        p2.setX(15);
+        p2.setY(8);
+
+
+
+
+
     }
+
 }
 
 
