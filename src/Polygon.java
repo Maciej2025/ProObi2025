@@ -1,10 +1,16 @@
 import java.util.ArrayList;
 public class Polygon {
 
-    ArrayList<String> points = new ArrayList<String>();
+    private ArrayList<Point> points;
 
-    points.add("s");
+    public Polygon(ArrayList<Point> points) {
+        this.points = points;
+    }
 
-
-
+    @Override
+    public String toString() {
+        return "Polygon{" +
+                "points=" + points +
+                '}';
+    }
 }

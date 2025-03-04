@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +24,17 @@ public class Main {
         p1.setY(15);
         p2.setX(15);
         p2.setY(8);
+
+        ArrayList<Point> points = new ArrayList<>();
+        points.add(new Point(90,70));
+        points.add(new Point(50,30));
+        points.add(new Point(20,50));
+        points.add(new Point(80,40));
+
+
+
+        Polygon poly = new Polygon(points);
+
     }
 }
 //konstruktor - tworzy nowe obiekty
