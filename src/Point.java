@@ -3,6 +3,10 @@ public class Point {
     private double y;
 
 
+
+
+
+
     @Override
     public String toString() {
         return "Point{" + "\n\t\t" +
@@ -44,4 +48,10 @@ public class Point {
         this.x = x;
         this.y = y;
     }
+
+    public Point(Point toCopy){
+        this.x = toCopy.x;
+        this.y = toCopy.y;
+    }
+
 }
