@@ -6,9 +6,18 @@ public class Main {
         p1.setX(5);
         p1.setY(6);
 
+
+        Point p2 = new Point(7,8);
+
+
         System.out.println(p1.toSvg());
-
-
-
+        System.out.println();
+        System.out.println(p2.toSvg());
     }
 }
+
+
+
+//konstruktor - tworzy nowe obiekty
+
+
